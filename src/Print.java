@@ -7,8 +7,8 @@ class Print {
      /**
      * Displays message.
      */
-    public void Print( ) {
-         System.out.println("Hello World!");
+    public void Print(String text ) {
+         System.out.println(text);
     }
 }
 
