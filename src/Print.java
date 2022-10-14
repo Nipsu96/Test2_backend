@@ -4,6 +4,9 @@
  * @since       1.6                        
  */
 class Print {
+     /**
+     * Displays message.
+     */
     public void Print( ) {
          System.out.println("Hello World!");
     }
