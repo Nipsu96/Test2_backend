@@ -18,9 +18,9 @@ class Print {
      * Displays message.
      */
     public void Print(String text ) {
-         System.out.println(text);
+        line(text, "=");
+        System.out.println(text);
+        line(text, "=");
     }
 }
-
-
 
