@@ -4,6 +4,12 @@
  * @since       1.6                        
  */
 class Print {
+  public void Line(String msg,String symbol) {
+        for (int i = 0; i < msg.length; i++) {
+           System.out.println(symbol);
+         }
+    }
+
      /**
      * Displays message.
      */
